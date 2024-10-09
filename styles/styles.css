@@ -4,11 +4,23 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+/* shared styles */
+.btn-primary {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    cursor: pointer;
+
+}
+
 /* Banner section styles starts */
 .benner-container {
     max-width: 1440px;
     height: 652px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 48px;
     background-image: url("../assets/Hero-bg.png");
@@ -45,7 +57,7 @@ body {
     margin-top: 24px;
 }
 
-.banner-content button{
+.banner-content button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px;
@@ -55,4 +67,84 @@ body {
     width: 244px;
     height: 65px;
     cursor: pointer;
+}
+
+/* Why Web Development section styles starts */
+.web-development-container {
+    margin-top: 74px;
+    margin-left: 148px;
+    margin-right: 152px;
+    max-width: 1140px;
+    height: 1393px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 97px;
+}
+
+.web-development-content h3 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.web-development-content p {
+    color: #0D1321;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.sub-section-01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 70px;
+    padding: 48px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.sub-section-left-1 {
+    width: 60%;
+    gap: 32px;
+}
+
+.sub-section-left-1 h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321B3;
+}
+
+.sub-section-left-1 p {
+    opacity: 0.7;
+    color: #0D1321;
+    margin-top: 16px;
+    text-align:left;
+}
+
+.sub-section-right-2 {
+    width: 40%;
+    direction: rtl;
+}
+
+.sub-section-left-3 {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.sub-section-right-4 {
+    width: 60%;
+}
+
+.sub-section-right-4 h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321B3;
 }
