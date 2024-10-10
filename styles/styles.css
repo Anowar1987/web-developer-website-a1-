@@ -183,7 +183,6 @@ body {
     text-align: center;
     opacity: 0.7;
     margin-top: 20px;
-
 }
 
 .inspirational-video {
@@ -196,7 +195,7 @@ body {
 /* My Current Target section style starts */
 .current-target-container {
     margin-top: 151px;
-    margin-left: 144px;
+    margin-left: 244px;
     margin-right: 144px;
     text-align: center;
     width: 1140px;
@@ -240,7 +239,6 @@ body {
 .card-1 img {
     width: 56px;
     height: 56px;
-
 }
 
 .card-2 {
