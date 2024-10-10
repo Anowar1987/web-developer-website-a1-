@@ -321,3 +321,28 @@ body {
     font-weight: 600;
     text-align: center;
 }
+
+/* Footer section style starts */
+.footer-container {
+    margin-top: 80px;
+    max-width: 1440px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32;
+    padding: 32px 150px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+.footer-container .footer-content {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 110px;
+}
+.footer-container .footer-icon {
+    gap: 24px;
+}
