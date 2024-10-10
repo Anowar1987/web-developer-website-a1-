@@ -202,6 +202,7 @@ body {
     height: 460px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .current-target-container h2 {
@@ -265,4 +266,34 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* I need support section style starts */
+.need-support-container {
+    width: 1140px;
+    height: 313px;
+    padding: 64px 48px;
+    border: 2px solid salmon;
+    border-radius: 16px;
+    margin-left: 250px;
+    margin-right: 150px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.need-support-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.need-support-content h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.need-support-content p{
+    opacity: 0.7;
+    text-align: center;
 }
